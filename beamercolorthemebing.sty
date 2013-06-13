@@ -1,0 +1,114 @@
+
+\mode<presentation>
+
+\definecolor{binggreen}{RGB}{0,106,77}
+\definecolor{lbinggreen}{RGB}{97,194,80}
+\definecolor{lbingblue}{RGB}{0,185,228}
+\definecolor{bingblue}{RGB}{0,143,197}
+\definecolor{bingred}{RGB}{207,0,114}
+\definecolor{bingorange}{RGB}{236,112,8}
+
+%\setbeamercolor{normal text}{fg=binggreen,bg=lbinggreen}
+\setbeamercolor{normal text}{fg=binggreen,bg=white}
+\setbeamercolor{alerted text}{fg=binggreen,bg=black}
+\setbeamercolor{example text}{fg=bingblue}
+
+\setbeamercolor{background}{text}
+
+%\setbeamercolor*{palette primary}{fg=binggreen,bg=lbinggreen}
+\setbeamercolor*{palette primary}{fg=binggreen,bg=white}
+%\setbeamercolor*{palette secondary}{fg=bingblue,bg=white}
+\setbeamercolor*{palette secondary}{fg=black,bg=white}
+\setbeamercolor*{palette tertiary}{bg=bingorange,fg=bingorange}
+\setbeamercolor*{palette quaternary}{fg=black,bg=binggreen}
+
+\setbeamercolor*{sidebar}{fg=bingorange,bg=bingorange}
+
+\setbeamercolor*{palette sidebar primary}{fg=bingorange}
+\setbeamercolor*{palette sidebar secondary}{fg=bingorange}
+\setbeamercolor*{palette sidebar tertiary}{fg=bingorange}
+\setbeamercolor*{palette sidebar quaternary}{fg=bingorange}
+
+\setbeamercolor{math text}{}
+\setbeamercolor{math text inlined}{parent=math text}
+\setbeamercolor{math text displayed}{parent=math text}
+\setbeamercolor{normal text in math text}{}
+
+
+\setbeamercolor*{titlelike}{parent=palette primary}
+%\setbeamercolor*{titlelike}{parent=palette secondary}
+
+\setbeamercolor{title}{parent=titlelike}
+\setbeamercolor{title in head/foot}{parent=palette quaternary}
+\setbeamercolor{title in sidebar}{parent=palette sidebar quaternary}
+
+%\setbeamercolor{subtitle}{parent=title}
+\setbeamercolor{subtitle}{parent=palette secondary}
+
+\setbeamercolor{author}{parent=palette secondary}
+%\setbeamercolor{author in head/foot}{parent=palette primary}
+\setbeamercolor{author in head/foot}{parent=palette secondary}
+\setbeamercolor{author in sidebar}{use=palette sidebar tertiary,fg=palette sidebar tertiary.fg}
+
+\setbeamercolor{institute}{parent=palette secondary}
+\setbeamercolor{institute in head/foot}{parent=palette tertiary}
+\setbeamercolor{institute in sidebar}{use=palette sidebar tertiary,fg=palette sidebar tertiary.fg}
+
+\setbeamercolor{date}{parent=palette secondary}
+\setbeamercolor{date in head/foot}{parent=palette secondary}
+\setbeamercolor{date in sidebar}{use=palette sidebar tertiary,fg=palette sidebar tertiary.fg}
+
+\setbeamercolor{frametitle}{fg=black,bg=binggreen}
+%\setbeamercolor{frametitle}{fg=lbinggreen,bg=binggreen}
+\setbeamercolor{frametitle right}{bg=bingorange}
+
+\setbeamercolor*{separation line}{}
+\setbeamercolor*{fine separation line}{}
+
+%%%%% SECTION
+\setbeamercolor{section name}{parent=palette primary}
+%\setbeamercolor{section title}{parent=titlelike}
+\setbeamercolor{section title}{}
+
+%\setbeamercolor{section in toc}{parent=structure}
+\setbeamercolor{section in toc}{parent=palette primary}
+\setbeamercolor{section in toc shaded}{parent=section in toc}
+\setbeamercolor{section in head/foot}{parent=palette tertiary}
+\setbeamercolor{section in sidebar}{parent=palette sidebar secondary}
+\setbeamercolor{section in sidebar shaded}{use=section in sidebar,fg=section in sidebar.fg!40!bg}
+\setbeamercolor{section number projected}{parent=item projected}
+
+\setbeamercolor{subsection name}{}
+\setbeamercolor{subsection title}{parent=palette secondary}
+
+\setbeamercolor{subsection in toc}{parent=palette secondary}
+\setbeamercolor{subsection in toc shaded}{parent=subsection in toc}
+\setbeamercolor{subsection in head/foot}{parent=palette secondary}
+\setbeamercolor{subsection in sidebar}{parent=palette sidebar primary}
+\setbeamercolor{subsection in sidebar shaded}{use=subsection in sidebar,fg=subsection in sidebar.fg!40!bg}
+\setbeamercolor{subsection number projected}{parent={subitem projected}}
+
+%%%%% ITEM
+\setbeamercolor{item}{fg=black}
+\setbeamercolor{subitem}{parent=item}
+\setbeamercolor{subsubitem}{parent=subitem}
+
+\setbeamercolor{item projected}{parent=item,use=item,fg=white,bg=item.fg}
+\setbeamercolor{subitem projected}{parent=item projected}
+\setbeamercolor{subsubitem projected}{parent=subitem projected}
+
+\setbeamercolor{enumerate item}{parent=item}
+\setbeamercolor{enumerate subitem}{parent=subitem}
+\setbeamercolor{enumerate subsubitem}{parent=subsubitem}
+
+\setbeamercolor{itemize item}{parent=item}
+\setbeamercolor{itemize subitem}{parent=subitem}
+\setbeamercolor{itemize subsubitem}{parent=subsubitem}
+
+\setbeamercolor{itemize/enumerate body}{}
+\setbeamercolor{itemize/enumerate subbody}{}
+\setbeamercolor{itemize/enumerate subsubbody}{}
+
+
+\mode
+<all>
