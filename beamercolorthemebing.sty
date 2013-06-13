@@ -1,6 +1,7 @@
 
 \mode<presentation>
 
+%%%%% Colors given from Branding guide
 \definecolor{binggreen}{RGB}{0,106,77}
 \definecolor{lbinggreen}{RGB}{97,194,80}
 \definecolor{lbingblue}{RGB}{0,185,228}
@@ -8,20 +9,18 @@
 \definecolor{bingred}{RGB}{207,0,114}
 \definecolor{bingorange}{RGB}{236,112,8}
 
-%\setbeamercolor{normal text}{fg=binggreen,bg=lbinggreen}
 \setbeamercolor{normal text}{fg=binggreen,bg=white}
 \setbeamercolor{alerted text}{fg=binggreen,bg=black}
 \setbeamercolor{example text}{fg=bingblue}
 
 \setbeamercolor{background}{text}
 
-%\setbeamercolor*{palette primary}{fg=binggreen,bg=lbinggreen}
 \setbeamercolor*{palette primary}{fg=binggreen,bg=white}
-%\setbeamercolor*{palette secondary}{fg=bingblue,bg=white}
 \setbeamercolor*{palette secondary}{fg=black,bg=white}
 \setbeamercolor*{palette tertiary}{bg=bingorange,fg=bingorange}
 \setbeamercolor*{palette quaternary}{fg=black,bg=binggreen}
 
+%%%%% Placeholders until colors/parts can be sorted out
 \setbeamercolor*{sidebar}{fg=bingorange,bg=bingorange}
 
 \setbeamercolor*{palette sidebar primary}{fg=bingorange}
@@ -34,19 +33,15 @@
 \setbeamercolor{math text displayed}{parent=math text}
 \setbeamercolor{normal text in math text}{}
 
-
+%%%%% TITLE INFORMATION
 \setbeamercolor*{titlelike}{parent=palette primary}
-%\setbeamercolor*{titlelike}{parent=palette secondary}
-
 \setbeamercolor{title}{parent=titlelike}
 \setbeamercolor{title in head/foot}{parent=palette quaternary}
 \setbeamercolor{title in sidebar}{parent=palette sidebar quaternary}
 
-%\setbeamercolor{subtitle}{parent=title}
 \setbeamercolor{subtitle}{parent=palette secondary}
 
 \setbeamercolor{author}{parent=palette secondary}
-%\setbeamercolor{author in head/foot}{parent=palette primary}
 \setbeamercolor{author in head/foot}{parent=palette secondary}
 \setbeamercolor{author in sidebar}{use=palette sidebar tertiary,fg=palette sidebar tertiary.fg}
 
@@ -59,7 +54,6 @@
 \setbeamercolor{date in sidebar}{use=palette sidebar tertiary,fg=palette sidebar tertiary.fg}
 
 \setbeamercolor{frametitle}{fg=black,bg=binggreen}
-%\setbeamercolor{frametitle}{fg=lbinggreen,bg=binggreen}
 \setbeamercolor{frametitle right}{bg=bingorange}
 
 \setbeamercolor*{separation line}{}
@@ -67,10 +61,8 @@
 
 %%%%% SECTION
 \setbeamercolor{section name}{parent=palette primary}
-%\setbeamercolor{section title}{parent=titlelike}
 \setbeamercolor{section title}{}
 
-%\setbeamercolor{section in toc}{parent=structure}
 \setbeamercolor{section in toc}{parent=palette primary}
 \setbeamercolor{section in toc shaded}{parent=section in toc}
 \setbeamercolor{section in head/foot}{parent=palette tertiary}
